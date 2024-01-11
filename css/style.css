@@ -435,7 +435,7 @@ img{
 }
 
 .container{
-    max-width: 1770px;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -616,16 +616,16 @@ img{
     margin-top: 0;
     margin-bottom: 24px;
     color: #fff;
-    font-size: 70px;
-    line-height: 85.33px;
+    font-size: 58px;
+    line-height: 65.33px;
 }
 
 .section-swiper__description{
     margin-top: 0;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     color: #fff;
-    font-size: 24px;
-    line-height: 29.26px;
+    font-size: 22px;
+    line-height: 19.26px;
 }
 
 .section-swiper__btn{
@@ -660,7 +660,7 @@ img{
 .section-about__item-1{
     display: flex;
     align-items: flex-end;
-    width: 868px;
+    width: 728px;
     height: 622px;
     border: 1px solid #CACACA;
     margin-right: 32px;
@@ -712,11 +712,15 @@ img{
 }
 
 .section-about__item-2{
-    width: 870px;
+    width: 668px;
     min-height: 295px;
     border: 1px solid #CACACA;
     margin-bottom: 28px;
     padding: 65px 118px 65px 60px;
+}
+
+.section-about__item-logo{
+    margin-right: 25px;
 }
 
 .section-about__item-2-content{
@@ -744,7 +748,7 @@ img{
 }
 
 .section-about__item-3{
-    width: 870px;
+    width: 668px;
     min-height: 295px;
     border: 1px solid #CACACA;
     padding: 65px 118px 65px 60px;
@@ -920,7 +924,8 @@ summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
 summary::marker{display:none;} 
 summary {
-   width: 1770px;
+   max-width: 1770px;
+   width: 100%;
    display:flex;
    justify-content: space-between;
    align-items: center;
@@ -931,7 +936,7 @@ summary {
 .section-question__icon{
     width: 50px;
     height: 50px;
-    margin-left: 60px;
+    margin-left: auto;
     cursor: pointer;
     transition: transform .7s;
 }
@@ -954,11 +959,11 @@ summary ~ * {
 
  details{
    display:block;
-   width: 1770px;
+   width: 100%;
  }
 
 .section-questions__heading{
-    width: 1700px;
+    width: 100%;
     margin-top: 0;
     margin-bottom: 32px;
     font-size: 48px;
@@ -977,6 +982,7 @@ summary ~ * {
 
 .section-questions__item{
     max-width: 1770px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -992,6 +998,7 @@ summary ~ * {
 .section-questions__item-heading{
     margin-top: 0;
     margin-bottom: 0;
+    margin-right: auto;
     font-size: 24px;
     line-height: 32px;
     font-weight: bold;

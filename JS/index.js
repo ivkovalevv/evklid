@@ -16,15 +16,6 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 document.addEventListener('DOMContentLoaded', function(){
-    document.querySelectorAll('.section-job__item').forEach(function(item_btn){
-        item_btn.addEventListener('click', function(event){
-            event.target.classList.toggle('alert')
-            })
-        })
-    })
-
-
-document.addEventListener('DOMContentLoaded', function(){
     document.querySelector('#menu').classList.remove('is-active')
     document.querySelector('#burger').addEventListener('click', function(){
         document.querySelector('#menu').classList.toggle('is-active')
